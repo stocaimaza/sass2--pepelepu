@@ -1,0 +1,19 @@
+/*** CICLOS / BUCLES ****/
+
+@for $i from 2 through 6 {
+    h#{$i} {
+        font-size: $i * 2rem;
+    }
+}
+
+
+/* EACH */
+//Lo usamos con listas: 
+$colores: 'pink', 'green', 'black';
+
+@each $color in $colores {
+    .#{$color} {
+        color: #{$color};
+    }
+}
+

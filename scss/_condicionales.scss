@@ -1,0 +1,19 @@
+/* CONDICIONALES */
+
+$vista: escritorio; 
+
+@if($vista == escritorio) {
+    body {
+        background-color: gray;
+    }
+}@else if($vista == celu) {
+    body {
+        background-color: hotpink;
+    }
+}@else {
+    body {
+    background-color: indigo;
+    }
+}
+
+
